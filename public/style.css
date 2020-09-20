@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.chats{
+
+    position: fixed;
+    bottom: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+.box{
+    background-color: cadetblue;
+    margin: auto auto;
+    width: 50%;
+    border: 2px solid gray;
+    box-shadow: 10px 10px gray;
+    bottom: 200px;
+}
+#messages{
+    background-color: cadetblue;
+    height: 450px;
+    padding: 20px;
+    overflow: auto;
+
+}
+#messages button{
+    margin-right: 20px;
+    background-color: limegreen;
+    color: white;
+    font-weight: bold;
+}
+#messages li{
+    background-color: lightskyblue;
+    padding: 5px;
+    margin: 5px;
+    list-style-type: none;
+    width: 50%;
+    overflow: auto;
+}
+#message{
+    width: 35% !important;
+    border-radius: 15px;
+    /* width: 100%; */
+    padding: 10px;
+    font-size: 15px;
+}
+.submit{
+    /* position: absolute; */
+    /* right: 0; */
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: gray;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .box {
+      width: 80% !important;
+    }
+    #messages{
+        height: 300px;
+    }
+    #messages li{
+        width: 80% !important;
+    }
+  }
+
+  
